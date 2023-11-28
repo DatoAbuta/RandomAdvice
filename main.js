@@ -16,20 +16,8 @@ async function randomAdvice(){
 
     const gif = document.createElement('img')
     gif.src = 'https://i.stack.imgur.com/h6viz.gif'
+    gif.classList.add('loadingi')
 
-
-    if (window.matchMedia("(width >= 375px)").matches){
-        gif.style.position = 'absolute'
-        gif.style.width = '230px'
-        gif.style.height = '250px'
-        gif.style.top = '155px'
-        gif.style.left = '73px'
-    }else if (window.matchMedia("(width >= 1440px)").matches){
-        gif.style.position = 'absolute'
-        gif.style.width = '130px'
-        gif.style.height = '150px'
-        gif.style.left = '2512px'
-    } 
     mid.appendChild(gif)
 
     

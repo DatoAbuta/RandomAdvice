@@ -40,4 +40,10 @@
         height: 1px;
         flex-shrink: 0;
     }
+    .loadingi{
+        position: absolute;
+        width: 180px;
+        height: 215px;
+        left: 43.7%;
+    }
 }
