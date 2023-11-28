@@ -47,3 +47,12 @@
         left: 43.7%;
     }
 }
+
+@media (width >= 1920px){
+    .loadingi{
+        position: absolute;
+        width: 180px;
+        height: 215px;
+        left: 45.3%;
+    }
+}
