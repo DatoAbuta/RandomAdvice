@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Big+Shoulders+Display:wght@800;900&family=Chivo&family=DM+Serif+Display&family=Hanken+Grotesk:wght@500;700;800&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@300;400;600&family=Red+Hat+Display:wght@500;900&family=Red+Hat+Text:wght@700&family=Space+Mono:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: var(--Dark-Blue, #202733);
+}
+
+.box{
+    width: 343px;
+    height: 315px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--Dark-Grayish-Blue, #313A48);
+    box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.10);
+    margin-top: 120px;
+}
+
+h6,small{
+    color: var(--Neon-Green, #53FFAA);
+    text-align: center;
+    font-family: 'Manrope';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.457px;
+    margin: 40px 0 24px 119px;
+}
+
+.gela{
+    margin-left: 0;
+    margin-right: 120px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+}
+
+h1{
+    width: 295px;
+    height: 132px;
+    color: var(--Light-Cyan, #CEE3E9);
+    text-align: center;
+    font-family: 'Manrope';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.257px;
+    margin-left: 24px;
+}
+
+.midbot{
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    margin-left: 24px;
+    margin-top: 32px;
+}
+
+.line{
+    width: 122px;
+    height: 1px;
+    flex-shrink: 0;
+    background: var(--Grayish-Blue, #4F5D74);
+}
+
+.circle{
+    width: 64px;
+    height: 64px;
+    background-color: #53FFAA;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    border: none;
+}
+.circle:hover{
+    border-radius: 64px;
+    background: var(--Neon-Green, #53FFAA);
+    box-shadow: 0px 0px 40px 0px #53FFAA;
+}
+
+.spin{
+    transform: rotate(360deg);
+    transition: 0.3s;
+}

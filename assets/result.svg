@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" display="block" shape-rendering="auto" style="animation-delay:0s;animation-play-state:running;background:rgb(255, 255, 255);margin:auto" preserveAspectRatio="xMidYMid" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<g fill="#e15b64" style="animation-delay:0s;animation-play-state:running">
+<circle cx="60" cy="50" r="4" style="animation-delay:0s;animation-play-state:running">
+<animate style="animation-delay:0s;animation-play-state:running" attributeName="cx" begin="-0.67s" dur="1s" keyTimes="0;1" repeatCount="indefinite" values="95;35"/>
+<animate style="animation-delay:0s;animation-play-state:running" attributeName="fill-opacity" begin="-0.67s" dur="1s" keyTimes="0;0.2;1" repeatCount="indefinite" values="0;1;1"/>
+</circle>
+<circle cx="60" cy="50" r="4" style="animation-delay:0s;animation-play-state:running">
+<animate style="animation-delay:0s;animation-play-state:running" attributeName="cx" begin="-0.33s" dur="1s" keyTimes="0;1" repeatCount="indefinite" values="95;35"/>
+<animate style="animation-delay:0s;animation-play-state:running" attributeName="fill-opacity" begin="-0.33s" dur="1s" keyTimes="0;0.2;1" repeatCount="indefinite" values="0;1;1"/>
+</circle>
+<circle cx="60" cy="50" r="4" style="animation-delay:0s;animation-play-state:running">
+<animate style="animation-delay:0s;animation-play-state:running" attributeName="cx" begin="0s" dur="1s" keyTimes="0;1" repeatCount="indefinite" values="95;35"/>
+<animate style="animation-delay:0s;animation-play-state:running" attributeName="fill-opacity" begin="0s" dur="1s" keyTimes="0;0.2;1" repeatCount="indefinite" values="0;1;1"/>
+</circle>
+</g>
+<g transform="translate(-15)" fill="#f8b26a" style="animation-delay:0s;animation-play-state:running">
+<path transform="rotate(90 50 50)" d="m50 50h-30a30 30 0 0 0 60 0z" style="animation-delay:0s;animation-play-state:running"/>
+<path d="m50 50h-30a30 30 0 0 0 60 0z" style="animation-delay:0s;animation-play-state:running">
+<animateTransform style="animation-delay:0s;animation-play-state:running" attributeName="transform" dur="1s" keyTimes="0;0.5;1" repeatCount="indefinite" type="rotate" values="0 50 50;45 50 50;0 50 50"/>
+</path>
+<path d="m50 50h-30a30 30 0 0 1 60 0z" style="animation-delay:0s;animation-play-state:running">
+<animateTransform style="animation-delay:0s;animation-play-state:running" attributeName="transform" dur="1s" keyTimes="0;0.5;1" repeatCount="indefinite" type="rotate" values="0 50 50;-45 50 50;0 50 50"/>
+</path>
+</g>
+</svg>
