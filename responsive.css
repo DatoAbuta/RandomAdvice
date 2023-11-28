@@ -1,3 +1,11 @@
+@media (width >= 412px){
+    .loadingi{
+        position: absolute;
+        width: 180px;
+        height: 215px;
+        left: 115px
+    }
+}
 @media (width >= 1440px){
     .box{
         width: 540px;
