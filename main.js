@@ -28,9 +28,8 @@ async function randomAdvice(){
     let res = await fetch('https://api.adviceslip.com/advice');
     let data = await res.json();
 
-    circle.removeAttribute('disabled')
-
     p.textContent = `#` + data.slip.id
     h1.innerHTML = `"${data.slip.advice}"`
     mid.removeChild(gif)
+    circle.removeAttribute('disabled')
 }
