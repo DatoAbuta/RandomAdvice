@@ -5,7 +5,7 @@ const p = document.querySelector('small')
 const mid = document.querySelector('.mid')
 
 circle.addEventListener('click', () => {
-    dice.classList.toggle('spin')
+    dice.classList.add('spin')
 
     randomAdvice();
 })
@@ -28,8 +28,10 @@ async function randomAdvice(){
     let res = await fetch('https://api.adviceslip.com/advice');
     let data = await res.json();
 
+    circle.removeAttribute('disabled')
+
     p.textContent = `#` + data.slip.id
     h1.innerHTML = `"${data.slip.advice}"`
     mid.removeChild(gif)
-    circle.removeAttribute('disabled')
+    dice.classList.remove('spin')
 }
