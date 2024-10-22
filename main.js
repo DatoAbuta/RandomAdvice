@@ -11,7 +11,6 @@ circle.addEventListener('click', () => {
 })
 
 async function randomAdvice(){
-    console.log('baro')
     h1.textContent = ''
 
     const gif = document.createElement('img')
